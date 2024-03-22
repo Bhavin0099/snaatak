@@ -15,6 +15,7 @@ Now times, Redis is a best option for modern database, that you can use for your
 1. To install using apt command
 2. To install using snap command
 
+
 1. using apt
 
        curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
@@ -40,6 +41,8 @@ After installing Redis using apt package you can check redis is properly runnig 
 
 ![Screenshot from 2024-03-22 15-14-35](https://github.com/Bhavin0099/snaatak/assets/153531232/a1350acd-b2f4-4cea-ab5d-f08a17f27082)
 
+Ping -> ping, If Redis is running, it will return "PONG". If it's not running, you'll get an error message.
+
 
 ### After using this command you will install Redis on you system, But if you are lazy and don't want to write this all commands then you can use another way...
 
@@ -56,6 +59,7 @@ After suscessfully install snapd packge in your system, now you can use snap com
 ![Screenshot from 2024-03-22 15-03-18](https://github.com/Bhavin0099/snaatak/assets/153531232/6578c2f6-2f1a-4250-af51-b872ede1e5a1)
 
 The Snap is a command which is used to interact with the Snap system. It allows users to search for, install, update, and manage snaps on their system. Let me explain you more, The Snap is a software packaging and deployment system developed by Canonical, the company behind Ubuntu. It allows developers to package their applications and all their dependencies into a single, self-contained package called a "snap". These snaps can then be easily installed and managed on a wide range of Linux distributions that support the Snap system.
+
 After installing Redis using snapd you can check redis is properly runnig or not using this command.
    
     redis.cli ping
