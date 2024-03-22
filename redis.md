@@ -15,7 +15,7 @@ Now times, Redis is a best option for modern database, that you can use for your
 1. To install using apt command
 2. To install using snap command
 
-
+-
 1. using apt
 
        curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
@@ -63,6 +63,24 @@ The Snap is a command which is used to interact with the Snap system. It allows 
 After installing Redis using snapd you can check redis is properly runnig or not using this command.
    
     redis.cli ping
+
+Check the Redis logs to see if there are any errors or warnings. The default location for Redis logs is /var/log/redis/redis-server.log. You can view the last few lines of the log file using the tail command:
+
+     sudo tail -f /var/log/redis/redis-server.log
+
+In addition in these methods, if you want to remove redis, you can use this command:
+
+      sudo apt-get purge –auto-remove redis-server
+
+# Contact Information
+
+| Name    | Email address                 |
+|---------|-------------------------------|
+| Bhavin  | bhavin.panchal.snaatak@mygurukulam.co   |
+
+# Reference Links
+- [Install Redis](https://redis.io/docs/install/install-redis/install-redis-on-linux/)
+- [How to check if Redis is running?](https://www.dragonflydb.io/faq/how-to-check-if-redis-is-running)
 
 Output:
 
