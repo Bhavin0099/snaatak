@@ -31,11 +31,11 @@ Now times, Redis is a best option for modern database, that you can use for your
 
 ![Screenshot from 2024-03-21 20-55-57](https://github.com/Bhavin0099/snaatak/assets/153531232/65d3fd95-bde6-448e-8abc-500924c55d52)
 
-Make sure you have to write " Y / y " to install Redis.
+- Make sure you have to write " Y / y " to install Redis.
 
 ![Screenshot from 2024-03-21 20-56-32](https://github.com/Bhavin0099/snaatak/assets/153531232/989b7577-3915-4aff-9b72-e9a832419e14)
 
-After installing Redis using apt package you can check redis is properly runnig or not using this command.
+- After installing Redis using apt package you can check redis is properly runnig or not using this command.
 
        redis-cli ping
 
@@ -44,7 +44,7 @@ After installing Redis using apt package you can check redis is properly runnig 
 Ping -> ping, If Redis is running, it will return "PONG". If it's not running, you'll get an error message.
 
 
-### After using this command you will install Redis on you system, But if you are lazy and don't want to write this all commands then you can use another way...
+- ### After using this command you will install Redis on you system, But if you are lazy and don't want to write this all commands then you can use another way...
 
 2. Using snap
 
@@ -64,6 +64,12 @@ After installing Redis using snapd you can check redis is properly runnig or not
    
     redis.cli ping
 
+Output:
+
+![Screenshot from 2024-03-22 15-11-31](https://github.com/Bhavin0099/snaatak/assets/153531232/6bdf79db-4638-4ae3-ba0b-0fcb945e7687)
+
+Ping -> ping, If Redis is running, it will return "PONG". If it's not running, you'll get an error message.
+
 Check the Redis logs to see if there are any errors or warnings. The default location for Redis logs is /var/log/redis/redis-server.log. You can view the last few lines of the log file using the tail command:
 
      sudo tail -f /var/log/redis/redis-server.log
@@ -72,19 +78,14 @@ In addition in these methods, if you want to remove redis, you can use this comm
 
       sudo apt-get purge –auto-remove redis-server
 
-# Contact Information
+# :phone: Contact Information
 
 | Name    | Email address                 |
 |---------|-------------------------------|
 | Bhavin  | bhavin.panchal.snaatak@mygurukulam.co   |
 
-# Reference Links
+# :clipboard: Reference Links
 - [Install Redis](https://redis.io/docs/install/install-redis/install-redis-on-linux/)
 - [How to check if Redis is running?](https://www.dragonflydb.io/faq/how-to-check-if-redis-is-running)
 
-Output:
-
-![Screenshot from 2024-03-22 15-11-31](https://github.com/Bhavin0099/snaatak/assets/153531232/6bdf79db-4638-4ae3-ba0b-0fcb945e7687)
-
-Ping -> ping, If Redis is running, it will return "PONG". If it's not running, you'll get an error message.
 
