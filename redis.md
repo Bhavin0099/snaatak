@@ -5,10 +5,12 @@
 # Installation of Redis
 ### Today we will see how to install Redis, but before installing Redis let me introduce Redis to you.
 
-# Introduce
+# :Documentation: Introduce
 Redis is an open-source, in-memory data structure store that can be used as a database, cache, and message broker. It supports various data structures such as strings, hashes, lists, sets, and sorted sets, and provides high-performance, distributed, and scalable data storage and retrieval capabilities. Redis is commonly used in web applications for caching, real-time analytics, job queue management, and other use cases where fast data access is critical.
 
 Now times, Redis is a best option for modern database, that you can use for your next application. One of the best thing which is gives by redis is low latency - Let's assume you have one application where alot user comes or if you have an application where you don't want downtimes to user, there you can use Redis.
+
+:Getting Started: # Installation steps
 
 ## Now let's install Redis on Linux.
 ### There is two way to install Redis.
